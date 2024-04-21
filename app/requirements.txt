@@ -1,0 +1,9 @@
+numpy
+pandas
+Flask
+scikit-learn
+torch
+torchvision
+requests
+Pillow
+gunicorn
