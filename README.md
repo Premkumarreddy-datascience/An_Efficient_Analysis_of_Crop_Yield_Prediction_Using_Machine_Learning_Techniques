@@ -1,4 +1,4 @@
-# 🌾Crop Yield Prediction using Machine Learning 
+<h1 align="center">🌾 Crop Yield Prediction Using Machine Learning 🌾</h1>
 
 <p align="center">
   <font color="gray" size="3">Predicting crop yield based on soil properties and environmental data using ML algorithms</font>
@@ -8,7 +8,7 @@
 
 ## 📑 Table of Contents
 
-- [About the Project](#about-the-project)
+- [About the Project](## 🌱 About the Project)
 - [Project Features](#project-features)
 - [Tech Stack](#tech-stack)
 - [Machine Learning Algorithms Used](#machine-learning-algorithms-used)
