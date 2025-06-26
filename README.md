@@ -112,7 +112,7 @@ This project uses **supervised machine learning algorithms** to predict the most
 
 ```bash
 # Step 1: Clone the repository
-git clone https://github.com/yourusername/crop-yield-prediction.git
+git clone https://github.com/Premkumarreddy-datascience/An_Efficient_Analysis_of_Crop_Yield_Prediction_Using_Machine_Learning_Techniques
 cd crop-yield-prediction
 
 # Step 2: Create environment
@@ -126,3 +126,81 @@ pip install -r requirements.txt
 jupyter notebook
 # OR for Flask app
 python main.py
+```
+## ▶️ How to Run
+
+### 📓 Jupyter Notebook
+
+1. Open `main.ipynb` or `Crop_Yield_Prediction.ipynb`.
+2. Run all cells to:
+   - Train machine learning models
+   - Test their accuracy
+   - Predict crop and fertilizer recommendations
+
+### 🌐 Flask Web Application
+
+1. Run the app using:
+
+   ```bash
+   python main.py
+   ```
+
+2. Open your browser and visit:
+
+   ```
+   http://127.0.0.1:5000/
+   ```
+
+3. Enter values in the form to get:
+   - Crop recommendation
+   - Fertilizer suggestion
+
+## 🗂️ Project Structure
+
+```
+crop-yield-prediction/
+├── models/
+│   ├── RandomForest.pkl
+│   ├── DecisionTree.pkl
+│   ├── NBClassifier.pkl
+│   ├── SVMClassifier.pkl
+│   └── XGBoost.pkl
+├── utils/
+│   ├── disease.py
+│   ├── fertilizer.py
+│   └── model.py
+├── static/
+│   ├── css/
+│   ├── images/
+│   └── scripts/
+├── templates/
+│   ├── index.html
+│   ├── crop.html
+│   └── fertilizer.html
+├── app.py / main.py
+├── crop_prediction.ipynb
+├── requirements.txt
+└── README.md
+```
+
+## 📊 Results
+
+- **Best Performing Model**: Random Forest
+- **Accuracy Achieved**: 99%
+- **Predicted Outputs**:
+  - Most suitable crop
+  - Matching fertilizer recommendation
+- **User Interface**:
+  - Built with Flask
+  - Input form and real-time prediction output
+
+## 🙏 Acknowledgements
+
+- **Datasets**: Kaggle, Tata Cornell Institute
+- **Weather Data API**: OpenWeatherMap
+- **Open-source Tools**:
+  - scikit-learn
+  - Flask
+  - Pandas
+  - NumPy
+- **Special Thanks**: The open-source community and contributors who made this project possible
