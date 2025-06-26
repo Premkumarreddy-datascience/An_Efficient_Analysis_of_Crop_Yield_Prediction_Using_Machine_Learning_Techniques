@@ -8,7 +8,7 @@
 
 ## 📑 Table of Contents
 
-- [About the Project](## 🌱 About the Project)
+- [About the Project](#about-the-project)
 - [Project Features](#project-features)
 - [Tech Stack](#tech-stack)
 - [Machine Learning Algorithms Used](#machine-learning-algorithms-used)
@@ -22,7 +22,7 @@
 
 ---
 
-## 🌱 About the Project
+## 🌱About the Project
 
 This project uses **supervised machine learning algorithms** to predict the most suitable **crop** and **fertilizer** based on soil nutrients, pH, and weather conditions.
 
@@ -34,7 +34,7 @@ This project uses **supervised machine learning algorithms** to predict the most
 
 ---
 
-## ✨ Project Features
+## ✨Project Features
 
 - 🔍 Predict crop yield using soil and weather data
 - 🌿 Suggest fertilizers based on crop & soil nutrients
@@ -45,7 +45,7 @@ This project uses **supervised machine learning algorithms** to predict the most
 
 ---
 
-## 🛠️ Tech Stack
+##  🛠️Tech Stack
 
 | Component         | Technology                                                   |
 |------------------|--------------------------------------------------------------|
@@ -59,7 +59,7 @@ This project uses **supervised machine learning algorithms** to predict the most
 
 ---
 
-## 🤖 Machine Learning Algorithms Used
+## 🤖Machine Learning Algorithms Used
 
 | Algorithm           | Accuracy |
 |---------------------|----------|
@@ -74,7 +74,7 @@ This project uses **supervised machine learning algorithms** to predict the most
 
 ---
 
-## 💻 System Specifications
+## 💻System Specifications
 
 ### 🔧 Hardware:
 - Intel i3 or higher
@@ -89,7 +89,7 @@ This project uses **supervised machine learning algorithms** to predict the most
 
 ---
 
-## 🧩 System Architecture
+## 🧩System Architecture
 
 
 - Data is cleaned and normalized
@@ -101,14 +101,14 @@ This project uses **supervised machine learning algorithms** to predict the most
 
 ---
 
-## ⚙️ Installation Guide
+## ⚙️Installation Guide
 
 ### ✅ Prerequisites:
 - Python 3.10+
 - Anaconda (recommended)
 - Internet connection for OpenWeatherMap API
 
-### 🔌 Setup:
+### 🔌Setup:
 
 ```bash
 # Step 1: Clone the repository
@@ -127,7 +127,7 @@ jupyter notebook
 # OR for Flask app
 python main.py
 ```
-## ▶️ How to Run
+## ▶️How to Run
 
 ### 📓 Jupyter Notebook
 
@@ -155,7 +155,7 @@ python main.py
    - Crop recommendation
    - Fertilizer suggestion
 
-## 🗂️ Project Structure
+## 🗂️Project Structure
 
 ```
 crop-yield-prediction/
@@ -183,7 +183,7 @@ crop-yield-prediction/
 └── README.md
 ```
 
-## 📊 Results
+## 📊Results
 
 - **Best Performing Model**: Random Forest
 - **Accuracy Achieved**: 99%
@@ -194,7 +194,7 @@ crop-yield-prediction/
   - Built with Flask
   - Input form and real-time prediction output
 
-## 🙏 Acknowledgements
+## Acknowledgements
 
 - **Datasets**: Kaggle, Tata Cornell Institute
 - **Weather Data API**: OpenWeatherMap
